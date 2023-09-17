@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "extract-audio"
+version = "0.1.0"
+description = ""
+authors = ["fersus <deriabin_85@mail.ru>"]
+readme = "README.md"
+packages = [{include = "extract_audio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytube = "^15.0.0"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
